@@ -1,0 +1,45 @@
+body {
+  background-color: #93b5c6;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    /*
+    rgba(5, 39, 94, 0.533) 0%,
+    rgb(0, 29, 75, 0) 100%*/ to bottom,
+    #f3c4b1 0%,
+    #c9ccd556 100% /*#fff4bf 100%*/
+  );
+  border-radius: 45px;
+  border-top: 1px solid #e88c67;
+  border-left: 1px solid #e88c67;
+  margin-bottom: 15px;
+  padding: 0px 22px;
+  margin: 10px;
+}
+.navbar-logo {
+  height: 55px;
+  width: 55px;
+  padding-left: 9px;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+  list-style: none;
+  padding: 0px 25px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav-item h6 {
+  display: inline-block;
+  margin: 5px 5px 5px 0;
+  font-weight: bold;
+  color: #ed9e80;
+  font-size: 13px;
+}
